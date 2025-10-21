@@ -31,31 +31,3 @@ export default function RootLayout({ children }: LayoutProps) {
     </html>
   );
 }
-
-
-
-
-
-// "use client"; // Client component needed for MUI
-// import { ReactNode } from "react";
-// import { ThemeProvider, CssBaseline } from "@mui/material";
-// import theme from "../theme";
-// import "./globals.css";
-
-// interface LayoutProps {
-//   children: ReactNode;
-// }
-
-// export default function RootLayout({ children }: LayoutProps) {
-//   return (
-//     <html lang="en">
-//       <body>
-//         <ThemeProvider theme={theme}>
-//           <CssBaseline />
-//           {children}
-//         </ThemeProvider>
-//       </body>
-//     </html>
-//   );
-// }
-

@@ -7,23 +7,3 @@ const redis = new Redis({
 });
 
 export default redis;
-
-
-
-// import Redis from "ioredis";
-
-// declare global {
-//   // eslint-disable-next-line no-var
-//   var redis: Redis | undefined;
-// }
-
-// let redis: Redis;
-
-// if (!globalThis.redis) {
-//   redis = new Redis(process.env.REDIS_URL!);
-//   globalThis.redis = redis;
-// } else {
-//   redis = globalThis.redis;
-// }
-
-// export default redis;
